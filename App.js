@@ -6,14 +6,14 @@
  * @flow
  */
 
-import React, { Fragment } from "react";
-import { Text } from "react-native";
-import Header from "./src/components/Header";
+import React, { Fragment } from 'react';
+import { Text } from 'react-native';
+import Header from './src/components/Header';
 
 const App = () => {
   return (
     <Fragment>
-      <Header />
+      <Header headerText={"Albums"} />
     </Fragment>
   );
 };
