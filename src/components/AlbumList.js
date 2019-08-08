@@ -22,10 +22,16 @@ class AlbumList extends Component {
     });
 
     return (
-      <ScrollView>
+      <ScrollView style={styles.overallStyle}>
         {albumList}
       </ScrollView>
     );
+  }
+}
+
+const styles = {
+  overallStyle: {
+    marginBottom: 20,
   }
 }
 
