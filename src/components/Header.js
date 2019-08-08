@@ -1,5 +1,5 @@
-import React from 'react';
-import { Text, View } from 'react-native';
+import React from "react";
+import { Text, View } from "react-native";
 
 const Header = ({ headerText }) => {
   const { textStyle, viewStyle } = styles;
@@ -12,22 +12,22 @@ const Header = ({ headerText }) => {
 
 const styles = {
   textStyle: {
-    fontSize: 25
+    fontSize: 25,
   },
 
   viewStyle: {
-    backgroundColor: 'pink',
+    backgroundColor: "pink",
     height: 80,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     paddingTop: 20,
-    shadowColor: "#000",
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     elevation: 2,
-    position: "relative"
-  }
+    position: 'relative',
+  },
 };
 
 export default Header;
