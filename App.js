@@ -7,16 +7,16 @@
  */
 
 import React, { Fragment } from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
 const App = () => {
   return (
-    <Fragment>
+    <View style={{ flex: 1}}>
       <Header headerText={"Albums"} />
       <AlbumList />
-    </Fragment>
+    </View>
   );
 };
 
